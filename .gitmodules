@@ -1,0 +1,3 @@
+[submodule "gabbageCollector/TestingServletFullStackApp"]
+	path = gabbageCollector/TestingServletFullStackApp
+	url = git@github.com:samuelgbenga/ServletFullStackJavaApp.git

@@ -1,0 +1,35 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Tomcat: DemoServlet" type="com.poratu.idea.plugins.tomcat">
+    <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+    <predefined_log_file enabled="true" id="Tomcat Access Log" />
+    <predefined_log_file id="Tomcat Catalina Log" />
+    <predefined_log_file id="Tomcat Manager Log" />
+    <predefined_log_file id="Tomcat Host Manager Log" />
+    <option name="catalinaBase" value="$USER_HOME$/.SmartTomcat/DemoServlet/DemoServlet" />
+    <option name="contextPath" value="/DemoServlet" />
+    <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+    <option name="envOptions">
+      <map />
+    </option>
+    <option name="extraClassPath" value="" />
+    <option name="port" value="8081" />
+    <option name="tomcatInfo">
+      <TomcatInfo>
+        <option name="name" value="Apache Tomcat/10.1.24" />
+        <option name="path" value="$USER_HOME$/Downloads/apache-tomcat-10.1.24" />
+        <option name="version" value="10.1.24.0" />
+      </TomcatInfo>
+    </option>
+    <option name="vmOptions" value="" />
+    <module name="DemoServlet" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+      <option name="MakeProject" enabled="true" />
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="DemoServlet:war" />
+        <artifact name="DemoServlet:war exploded" />
+      </option>
+      <option name="LaunchBrowser.Before.Run" />
+    </method>
+  </configuration>
+</component>
